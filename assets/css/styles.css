@@ -29,8 +29,8 @@ body {
     width: 100%;
     margin: 0 auto;
     position: relative;
-    background: rgb(221,0,3);
-    background: linear-gradient(0deg, rgba(221,0,3,1) 0%, rgba(156,1,5,1) 52%, rgba(96,2,7,1) 100%);
+    /* background: rgb(221,0,3);
+    background: linear-gradient(0deg, rgba(221,0,3,1) 0%, rgba(156,1,5,1) 52%, rgba(96,2,7,1) 100%); */
     position: fixed;
     z-index: 1;
 }
@@ -143,14 +143,35 @@ body {
 
 
 /* MEDIA QUERY */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 651px) {
+    body {
+        width: 650px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .top-bar .top-btn img {
+        width: 650px;
+    }
+    .bind-mobile {
+        margin-top: 1rem;
+    }
+}
+@media only screen and (max-width: 650px) {
     .bind-mobile .download-button {
         margin-top: -4.95rem;
     }
 }
 
 @media only screen and (max-width: 480px) {
+    .bind-mobile {
+        margin-top: -0.75rem;
+    }
     .bind-mobile .download-button {
-        margin-top: -6.85rem;
+        margin-top: -5.25rem;
+    }
+
+    .bind-mobile .download-button img {
+        width: 65%;
     }
 }
