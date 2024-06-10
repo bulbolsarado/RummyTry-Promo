@@ -11,6 +11,7 @@ body {
     font-family: 'Montserrat';
     font-size: 0.22rem;
     width: 100%;
+    height: 100%;
 }
 
 .main {
@@ -18,11 +19,12 @@ body {
     display: block;
     max-width: 650px;
     width: 100%;
+    height: 100%;
 }
 
 .main .container {
-    max-width: 650px;
     width: 100%;
+    height: 100%;
 }
 
 .top-bar {
@@ -44,7 +46,7 @@ body {
     width: 650px;
 }
 
-.bind-mobile img {
+.bind-mobile .bind-img {
     max-width: 650px;
     width: 100%;
 }
@@ -76,8 +78,11 @@ body {
 }
 
 .footer {
-    background-color: #830000;
     width: 650px;
+    height: 221px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../images/footer-bg.png") no-repeat top center/100% auto, #ff0000;
 }
 
 .footer .footer-nav {
@@ -85,10 +90,11 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 1rem;
+    background-color: crimson;
 }
 
 .footer .footer-nav a {
-    font-size: 0.65rem;
+    font-size: 18px;
     color: white;
     font-weight: 600;
 }
@@ -100,23 +106,15 @@ body {
     padding: 1rem;
 }
 
-.footer .footer-contact .pagcor-logo {
-    position: absolute;
-    right: 34%;
-}
-
-.footer .footer-contact .pagcor-logo img {
-    max-width: 3rem;
-}
-
 .footer .footer-contact h5 {
     color: white;
-    font-size: 0.75rem;
+    font-size: 16px;
+    margin: 10px 0;
 }
 
 .footer .footer-contact .contact-email span, .footer .footer-contact .contact-email a, .footer .footer-contact .contact-tg span, .footer .footer-contact .contact-tg a, .footer .footer-contact p {
     color: white;
-    font-size: 0.65rem;
+    font-size: 16px;
 }
 
 
@@ -126,13 +124,10 @@ body {
     .bind-mobile .download-button {
         margin-top: -7.5rem;
     }
-    .footer .footer-contact .pagcor-logo {
-        right: -30%;
-    }
 }
 
 @media only screen and (max-width: 480px) {
-    .footer .footer-contact .pagcor-logo {
-        right: -50%;
+    .bind-mobile .download-button {
+        margin-top: -9.5rem;
     }
 }
