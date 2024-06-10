@@ -10,21 +10,22 @@ html {
 body {
     font-family: 'Montserrat';
     font-size: 0.22rem;
-    width: 100%;
-    height: 100%;
     background-color: #a50100;
+    width: 650px;
+    max-width: 100%;
+    height: 100%;
 }
 
 .main {
     margin: 0 auto;
     display: block;
-    max-width: 650px;
-    width: 100%;
+    width: 650px;
+    max-width: 100%;
     height: 100%;
 }
 
 .main .container {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 
@@ -49,17 +50,20 @@ body {
     height: 85px;
 }
 
-.bind-mobile, .first-deposit, .footer {
+.bind-mobile, .first-deposit,.promo-code, .footer {
     width: 650px;
 }
 
 .bind-mobile .bind-img, .first-deposit .deposit-img {
     max-width: 650px;
-    width: 100%;
 }
 
 .promo-code .promo-img {
-    width: auto;
+    max-width: 650px;
+}
+
+.bind-mobile {
+    margin-top: 1rem;
 }
 
 .bind-mobile .download-button {
@@ -133,7 +137,7 @@ body {
 /* MEDIA QUERY */
 @media only screen and (max-width: 768px) {
     .bind-mobile .download-button {
-        margin-top: -7.5rem;
+        margin-top: -4.95rem;
     }
 }
 
