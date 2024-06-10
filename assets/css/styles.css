@@ -46,7 +46,7 @@ body {
 }
 
 .space {
-    height: 100px;
+    height: 85px;
 }
 
 .bind-mobile, .first-deposit, .footer {
@@ -139,6 +139,6 @@ body {
 
 @media only screen and (max-width: 480px) {
     .bind-mobile .download-button {
-        margin-top: -9.5rem;
+        margin-top: -6.5rem;
     }
 }
