@@ -10,21 +10,26 @@ html {
 body {
     font-family: 'Montserrat';
     font-size: 0.22rem;
+    width: 100%;
 }
 
 .main {
     margin: 0 auto;
     display: block;
     max-width: 650px;
-    height: auto;
+    width: 100%;
+}
+
+.main .container {
+    max-width: 650px;
+    width: 100%;
 }
 
 .top-bar {
-    max-width: 650px;
+    width: 650px;
     margin: 0 auto;
     position: relative;
     background: url("../images/top-bar-bg.png") no-repeat top center/100% auto, #ff0000;
-    max-width: 100%;
 }
 
 .top-bar .wrapper {
@@ -32,7 +37,16 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.bind-mobile, .first-deposit, .footer {
+    width: 650px;
+}
+
+.bind-mobile img {
+    max-width: 650px;
+    width: 100%;
 }
 
 .bind-mobile .download-button {
@@ -47,11 +61,10 @@ body {
 }
 
 .bottom-bar {
-    max-width: 650px;
+    width: 650px;
     margin: 0 auto;
     position: relative;
     background: url("../images/bottom-bar-bg.png") no-repeat top center/100% auto, #ff0000;
-    max-width: 100%;
 }
 
 .bottom-bar .wrapper {
@@ -59,5 +72,62 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: #830000;
+    width: 650px;
+}
+
+.footer .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.footer .footer-nav a {
+    font-size: 0.65rem;
+    color: white;
+    font-weight: 600;
+}
+
+.footer .footer-contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.footer .footer-contact .pagcor-logo img {
+    max-width: 3rem;
+    position: absolute;
+    right: 34%;
+}
+
+.footer .footer-contact h5 {
+    color: white;
+    font-size: 0.75rem;
+}
+
+.footer .footer-contact .contact-email span, .footer .footer-contact .contact-email a, .footer .footer-contact .contact-tg span, .footer .footer-contact .contact-tg a, .footer .footer-contact p {
+    color: white;
+    font-size: 0.65rem;
+}
+
+
+
+/* MEDIA QUERY */
+@media only screen and (max-width: 768px) {
+    .bind-mobile .download-button {
+        margin-top: -7.5rem;
+    }
+    .footer .footer-contact .pagcor-logo img {
+        right: -50%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
 }
