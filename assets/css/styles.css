@@ -32,6 +32,8 @@ body {
     margin: 0 auto;
     position: relative;
     background: url("../images/top-bar-bg.png") no-repeat top center/100% auto, #ff0000;
+    position: fixed;
+    z-index: 1;
 }
 
 .top-bar .wrapper {
@@ -42,13 +44,21 @@ body {
     justify-content: space-around;
 }
 
+.space {
+    height: 107px;
+}
+
 .bind-mobile, .first-deposit, .footer {
     width: 650px;
 }
 
-.bind-mobile .bind-img, .first-deposit .deposit-img, .promo-code .promo-img {
+.bind-mobile .bind-img, .first-deposit .deposit-img {
     max-width: 650px;
     width: 100%;
+}
+
+.promo-code .promo-img {
+    width: auto;
 }
 
 .bind-mobile .download-button {
