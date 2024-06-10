@@ -16,8 +16,7 @@ body {
 .main {
     margin: 0 auto;
     display: block;
-    width: 650px;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -27,7 +26,7 @@ body {
 }
 
 .top-bar {
-    width: 650px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     background: url("../images/top-bar-bg.png") no-repeat top center/100% auto, #ff0000;
@@ -48,15 +47,15 @@ body {
 }
 
 .bind-mobile, .first-deposit,.promo-code, .footer {
-    width: 650px;
+    width: 100%;
 }
 
 .bind-mobile .bind-img, .first-deposit .deposit-img {
-    max-width: 650px;
+    width: 100%;
 }
 
 .promo-code .promo-img {
-    max-width: 650px;
+    width: 100%;
 }
 
 .bind-mobile {
@@ -75,7 +74,7 @@ body {
 }
 
 .bottom-bar {
-    width: 650px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     background: url("../images/bottom-bar-bg.png") no-repeat top center/100% auto, #ff0000;
@@ -90,7 +89,7 @@ body {
 }
 
 .footer {
-    width: 650px;
+    width: 100%;
     height: 221px;
     margin: 0 auto;
     position: relative;
