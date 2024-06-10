@@ -43,8 +43,8 @@ body {
     justify-content: space-around;
 }
 
-.top-bar .wrapper img, .top-bar .top-btn img {
-    max-width: 100%;
+.top-bar .top-btn img {
+    width: 100%;
 }
 
 .space {
