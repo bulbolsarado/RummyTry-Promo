@@ -86,6 +86,9 @@ body {
     background: linear-gradient(0deg, rgba(221,0,3,1) 0%, rgba(156,1,5,1) 52%, rgba(96,2,7,1) 100%);
 }
 
+.bottom-bar .bottom-btn img {
+    width: 100%;
+}
 .bottom-bar .wrapper {
     padding: 0.5rem;
     display: flex;
