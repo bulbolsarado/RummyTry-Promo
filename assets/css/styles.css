@@ -10,9 +10,6 @@ html {
 body {
     font-family: 'Montserrat';
     font-size: 0.22rem;
-    background-color: #a50100;
-    width: 650px;
-    max-width: 100%;
     height: 100%;
 }
 
@@ -47,7 +44,7 @@ body {
 }
 
 .space {
-    height: 85px;
+    height: 82px;
 }
 
 .bind-mobile, .first-deposit,.promo-code, .footer {
@@ -143,6 +140,6 @@ body {
 
 @media only screen and (max-width: 480px) {
     .bind-mobile .download-button {
-        margin-top: -6.5rem;
+        margin-top: -4.85rem;
     }
 }
