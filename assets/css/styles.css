@@ -46,7 +46,7 @@ body {
     width: 650px;
 }
 
-.bind-mobile .bind-img {
+.bind-mobile .bind-img, .first-deposit .deposit-img, .promo-code .promo-img {
     max-width: 650px;
     width: 100%;
 }
