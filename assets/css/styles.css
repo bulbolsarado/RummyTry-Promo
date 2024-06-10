@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    list-style: none;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Montserrat';
+    font-size: 0.22rem;
+}
+
+.main {
+    margin: 0 auto;
+    display: block;
+    max-width: 650px;
+    height: auto;
+}
+
+.top-bar {
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../images/top-bar-bg.png") no-repeat top center/100% auto, #ff0000;
+    max-width: 100%;
+}
+
+.top-bar .wrapper {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bind-mobile .download-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -6rem;
+}
+
+.first-deposit, .promo-code, .footer {
+    margin-bottom: -1px;
+}
+
+.bottom-bar {
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../images/bottom-bar-bg.png") no-repeat top center/100% auto, #ff0000;
+    max-width: 100%;
+}
+
+.bottom-bar .wrapper {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
