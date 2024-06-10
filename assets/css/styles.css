@@ -100,10 +100,13 @@ body {
     padding: 1rem;
 }
 
-.footer .footer-contact .pagcor-logo img {
-    max-width: 3rem;
+.footer .footer-contact .pagcor-logo {
     position: absolute;
     right: 34%;
+}
+
+.footer .footer-contact .pagcor-logo img {
+    max-width: 3rem;
 }
 
 .footer .footer-contact h5 {
@@ -123,13 +126,13 @@ body {
     .bind-mobile .download-button {
         margin-top: -7.5rem;
     }
-    .footer .footer-contact .pagcor-logo img {
+    .footer .footer-contact .pagcor-logo {
         right: -30%;
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .footer .footer-contact .pagcor-logo img {
+    .footer .footer-contact .pagcor-logo {
         right: -50%;
     }
 }
