@@ -44,7 +44,7 @@ body {
 }
 
 .top-bar .wrapper img, .top-bar .top-btn img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .space {
@@ -123,6 +123,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 1rem;
+    text-align: center;
 }
 
 .footer .footer-contact h5 {
