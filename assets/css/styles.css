@@ -140,6 +140,6 @@ body {
 
 @media only screen and (max-width: 480px) {
     .bind-mobile .download-button {
-        margin-top: -4.85rem;
+        margin-top: -6.85rem;
     }
 }
