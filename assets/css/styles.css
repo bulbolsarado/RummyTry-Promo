@@ -150,6 +150,10 @@ bottom: 0;
     font-size: 16px;
 }
 
+.footer .footer-contact .contact-email, .footer .footer-contact .contact-tg, .footer .footer-contact p {
+    margin: 5px 0;
+}
+
 .tg {
     position: fixed;
     right: 3%;
