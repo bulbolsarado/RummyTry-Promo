@@ -13,24 +13,33 @@ body {
     height: 100%;
 }
 
-.main {
+.center {
     margin: 0 auto;
     display: block;
-    width: 100%;
-    height: 100%;
-}
-
-.main .container {
+    width: 650px;
     max-width: 100%;
     height: 100%;
 }
 
-.top-bar {
-    width: 100%;
+
+
+.top-bar, .bottom-bar {
+    height: 100%;
     margin: 0 auto;
     position: relative;
     /* background: rgb(221,0,3);
     background: linear-gradient(0deg, rgba(221,0,3,1) 0%, rgba(156,1,5,1) 52%, rgba(96,2,7,1) 100%); */
+}
+.top-bar .top-btn img {
+    top: 0;
+}
+
+.bottom-bar .bottom-btn img {
+bottom: 0;
+}
+
+.top-bar .top-btn img, .bottom-bar .bottom-btn img {
+    max-width: 100%;
     position: fixed;
     z-index: 1;
 }
@@ -43,12 +52,9 @@ body {
     justify-content: space-around;
 }
 
-.top-bar .top-btn img {
-    width: 100%;
-}
 
-.space {
-    height: 82px;
+.space img {
+    max-width: 100%;
 }
 
 .bind-mobile, .first-deposit,.promo-code, .footer {
@@ -71,7 +77,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -6rem;
+    margin-top: -5rem;
+}
+
+.bind-mobile .download-button img {
+    width: 60%;
 }
 
 .first-deposit, .promo-code, .footer {
@@ -86,9 +96,6 @@ body {
     background: linear-gradient(0deg, rgba(221,0,3,1) 0%, rgba(156,1,5,1) 52%, rgba(96,2,7,1) 100%);
 }
 
-.bottom-bar .bottom-btn img {
-    width: 100%;
-}
 .bottom-bar .wrapper {
     padding: 0.5rem;
     display: flex;
@@ -98,8 +105,10 @@ body {
 }
 
 .footer {
+    width: 100%;
     background: rgb(221,0,3);
     background: linear-gradient(0deg, rgba(221,0,3,1) 0%, rgba(156,1,5,1) 52%, rgba(96,2,7,1) 100%);
+    margin-bottom: 118px;
     /* width: 100%;
     height: 221px;
     margin: 0 auto;
@@ -140,38 +149,25 @@ body {
     font-size: 16px;
 }
 
+.tg {
+    position: fixed;
+    right: 3%;
+    bottom: 10%;
+}
 
+.tg img {
+    width: 100%;
+}
 
 /* MEDIA QUERY */
-@media only screen and (min-width: 651px) {
-    body {
-        width: 650px;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .top-bar .top-btn img {
-        width: 650px;
-    }
-    .bind-mobile {
-        margin-top: 1rem;
-    }
-}
-@media only screen and (max-width: 650px) {
-    .bind-mobile .download-button {
-        margin-top: -4.95rem;
-    }
-}
-
 @media only screen and (max-width: 480px) {
-    .bind-mobile {
-        margin-top: -0.75rem;
+    .footer {
+        margin-bottom: 78px;
     }
-    .bind-mobile .download-button {
-        margin-top: -5.25rem;
+    .tg a img {
+        width: 60%;
     }
-
-    .bind-mobile .download-button img {
-        width: 65%;
+    .tg {
+        right: -7%;
     }
 }

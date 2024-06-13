@@ -149,14 +149,14 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('fbclid', fbclid);
       if (fbclid && fbclid.length > 1) {
           // Channel APK this URL
-          golink = "https://xjpklccossyd06.zxcvrfrec.com/Rummytry/RummyTry-6000000.apk";
+          golink = "https://xjpklccossyd06.zxcvrfrec.com/Rummytry/RummyTry-channel-6666678.apk";
       } else {
-          golink = "https://xjpklccossyd06.zxcvrfrec.com/Rummytry/RummyTry-6000000.apk";
+          golink = "https://xjpklccossyd06.zxcvrfrec.com/Rummytry/RummyTry-channel-6666678.apk";
       }
 
       if (isiOS) {
           // If not have iOS link, comment out this line
-          window.location.href = "https://xjpklccossyd06.zxcvrfrec.com/Rummytry/RummyTry-6000000.apk";
+          window.location.href = "https://xjpklccossyd06.zxcvrfrec.com/Rummytry/RummyTry-channel-6666678.apk";
       } else if (isAndroid) {
           window.location.href = golink;
       } else {
